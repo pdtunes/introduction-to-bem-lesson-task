@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.header{
+    padding-left: 20%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons__btn--green{
+    background-color: green;
+}
+
+.buttons__btn-white{
+   background-color: white;
+}
+
+.buttons__btn--pink{
+    background-color: pink;
+}
+
+.buttons__btn--rounded{
+ margin: 5px;
+    padding: 100px;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+.navbar li{
+    list-style: none;
+}
+   
+.navbar__item{
+    padding: 10px;
+}
+
+.email{
+  display: flex;
+  padding-left: 70%;
+}
+.email__box{
+   background-color: white;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-top: 2px;
+   padding-left: 30px;
+   padding-right:30px;
+}
